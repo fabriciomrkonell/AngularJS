@@ -64,23 +64,6 @@ angular.module('appController', []).
 					alert("OCORREU UM ERRO NA IMPORTAÇÃO!");
 				}
 			})			
-		};
-		
-		$scope.ExportarJSON = function() {
-			$.ajax({
-				type: 'POST',
-				dataType: "JSON",
-				url:'dados.html',				
-				success: function(data){					
-					$scope.User = data.User;		
-					if(!$scope.$$phase){
-						$scope.$apply();
-					}
-				},
-				error: function(data){
-					alert("OCORREU UM ERRO NA IMPORTAÇÃO!");
-				}
-			})									
 		};	
 	}
 );
