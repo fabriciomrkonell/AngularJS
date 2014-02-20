@@ -64,6 +64,7 @@ angular.module('appController', []).
 					alert("OCORREU UM ERRO NA IMPORTAÇÃO!");
 				}
 			})			
+<<<<<<< HEAD
 		};
 		
 		$scope.ExportarJSON = function() {
@@ -81,6 +82,8 @@ angular.module('appController', []).
 					alert("OCORREU UM ERRO NA IMPORTAÇÃO!");
 				}
 			})									
+=======
+>>>>>>> gh-pages
 		};	
 	}
 );
